@@ -7,7 +7,7 @@
 
     <groupId>pe.edu.nova.java.libs</groupId>
     <artifactId>nova-observability-utils</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0-SNAPSHOT</version>
 
     <name>Nova Platform Observability Utils</name>
     <description>Librería pura de utilidades de observabilidad — sin dependencias de framework</description>
