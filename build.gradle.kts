@@ -1,6 +1,7 @@
 plugins {
     id("java-library")
     id("maven-publish")
+    checkstyle
     id("net.nemerosa.versioning") version "4.0.1"
     id("signing")
 }
@@ -30,6 +31,13 @@ tasks.javadoc {
         encoding = "UTF-8"
         charSet = "UTF-8"
     }
+}
+
+checkstyle {
+    // Only lint production code. Test suites commonly rely on static-import
+    // wildcards (org.junit.jupiter.api.Assertions.*, net.jqwik.api.*), which
+    // is an accepted convention that would otherwise trip AvoidStarImport.
+    sourceSets = listOf(project.sourceSets.main.get())
 }
 
 publishing {
