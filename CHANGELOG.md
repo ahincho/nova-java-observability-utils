@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/ahincho/nova-java-observability-utils/compare/v1.0.0...v1.0.1) (2026-07-13)
+
+
+### Bug Fixes
+
+* **ci:** add component + skip-snapshot + manifest-file (mask-utils pattern) ([eb4fa9c](https://github.com/ahincho/nova-java-observability-utils/commit/eb4fa9c83fa595682681a4aab50ed23a10a00114))
+* **ci:** add last-release-sha, include-component-in-tag: false, release-type: java to top-level config; pass manifest-file in wrapper ([45d752d](https://github.com/ahincho/nova-java-observability-utils/commit/45d752dfabb989c83a14630ca7077f41afbff940))
+
 ## 1.0.0 (2026-07-10)
 
 
