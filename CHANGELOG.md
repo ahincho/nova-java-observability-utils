@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/ahincho/nova-java-observability-utils/compare/v1.0.1...v1.0.2) (2026-09-01)
+
+
+### Documentation
+
+* add a README and adopt EPL-2.0 ([b024b2f](https://github.com/ahincho/nova-java-observability-utils/commit/b024b2f0dc121e6d11362e7c722d18b556822a40))
+
 ## [1.0.1](https://github.com/ahincho/nova-java-observability-utils/compare/v1.0.0...v1.0.1) (2026-07-13)
 
 
